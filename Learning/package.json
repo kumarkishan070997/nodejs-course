@@ -4,11 +4,12 @@
   "description": "This is a node js learning project",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon main.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.1",
     "nodemon": "^2.0.19"
   }
 }
