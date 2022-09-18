@@ -4,6 +4,7 @@ const myEmitter = new eventEmmiter();
 const app = express();
 const port = 4000;
 const routes = require('./Routes/routes');
+const database = require('./Database/db');
 app.set('view engine', 'pug')
 
 app.use(routes);
