@@ -16,8 +16,8 @@ async function main() {
   await client.connect();
   console.log('Connected successfully to server');
   const db = client.db(dbName);
-  const collection = await db.collection('documents');
-  return collection;
+//   const collection = await db.collection('documents');
+  return db;
 
     }
     catch(error){
