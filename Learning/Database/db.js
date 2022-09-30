@@ -14,6 +14,7 @@ async function main() {
         console.log('inside async function');
   // Use connect method to connect to the server
   await client.connect();
+  console.log('code came here after connect');
   console.log('Connected successfully to server');
   const db = client.db(dbName);
 //   const collection = await db.collection('documents');
